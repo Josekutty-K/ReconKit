@@ -20,6 +20,7 @@ curl -sL https://raw.githubusercontent.com/haccer/subjack/master/fingerprints.js
 
 # Verify (should show your file)
 ls ~/go/bin/ | grep fingerprints.json
+```
 
 ## 🚀 Quick Start
 
@@ -33,7 +34,7 @@ chmod +x reconkit
 
 # Run recon!
 ./reconkit hackerone.com
-
+```
 ## 📂 Example Output
 
 recon_hackerone.com/
