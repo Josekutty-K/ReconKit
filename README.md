@@ -20,3 +20,26 @@ curl -sL https://raw.githubusercontent.com/haccer/subjack/master/fingerprints.js
 
 # Verify (should show your file)
 ls ~/go/bin/ | grep fingerprints.json
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repo
+git clone https://github.com/Josekutty-K/ReconKit.git
+cd ReconKit
+
+# Make executable
+chmod +x reconkit
+
+# Run recon!
+./reconkit hackerone.com
+
+## 📂 Example Output
+
+recon_hackerone.com/
+├── hackerone.com-subfinder.txt      (547 subdomains)
+├── hackerone.com-live-subs.txt      (42 live)
+├── hackerone.com-params.txt         (1,234 params)
+├── hackerone.com-takeovers.txt      (0 takeovers)
+└── hackerone.com-uniq-urls.txt      (5,672 URLs)
+
