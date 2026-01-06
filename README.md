@@ -39,9 +39,11 @@ chmod +x reconkit
 
 ```bash
 recon_hackerone.com/
-├── hackerone.com-subfinder.txt      (547 subdomains)
-├── hackerone.com-live-subs.txt      (42 live)
-├── hackerone.com-params.txt         (1,234 params)
-├── hackerone.com-takeovers.txt      (0 takeovers)
-└── hackerone.com-uniq-urls.txt      (5,672 URLs)
+├── hackerone.com-subfinder.txt
+├── hackerone.com-findomain.txt      
+├── hackerone.com-assetfinder.txt     
+├── hackerone.com-live-subs.txt     
+├── hackerone.com-params.txt        
+├── hackerone.com-takeovers.txt      
+└── hackerone.com-uniq-urls.txt     
 
