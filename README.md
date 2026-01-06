@@ -9,3 +9,8 @@ ReconKit is a custom bash script which I created to automate recon processes lik
 - 💥 **Takeovers**: subjack
 - 📁 **Organized Output**: Clean folder structure
 
+## 🛠️ Prerequisites
+Make sure all these tools are installed and accessible from anywhere:
+
+```bash
+subfinder assetfinder findomain httprobe waybackurls gau unfurl subjack
