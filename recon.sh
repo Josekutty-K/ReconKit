@@ -117,7 +117,7 @@ echo ""
 echo "SCANNING FOR SUBDOMAIN TAKEOVERS..."
 echo ""
 
-subjack -w "${target}-uniq-subs.txt" -t 25 -ssl -c /home/kali/go/bin/fingerprints.json -o "${target}-takeovers.txt"
+subjack -w "${target}-uniq-subs.txt" -t 25 -ssl -c $HOME/go/bin/fingerprints.json -o "${target}-takeovers.txt"
 
 if [[ -s "${target}-takeovers.txt" ]]; then
     echo " TAKEOVERS: $(wc -l < "${target}-takeovers.txt")"
