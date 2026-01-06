@@ -37,6 +37,7 @@ chmod +x reconkit
 ```
 ## 📂 Example Output
 
+```bash
 recon_hackerone.com/
 ├── hackerone.com-subfinder.txt      (547 subdomains)
 ├── hackerone.com-live-subs.txt      (42 live)
