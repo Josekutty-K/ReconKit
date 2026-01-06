@@ -15,7 +15,7 @@ Make sure all these tools are installed and accessible from anywhere:
 ```bash
 subfinder assetfinder findomain httprobe waybackurls gau unfurl subjack
 
-# Download fingerprints.json to ~/go/bin/
+# Download fingerprints.json for subjack to ~/go/bin/
 curl -sL https://raw.githubusercontent.com/haccer/subjack/master/fingerprints.json -o ~/go/bin/fingerprints.json
 
 # Verify (should show your file)
